@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "back"
+version = "0.1.0"
+description = ""
+authors = ["Jaeman Kim <daga4242@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
